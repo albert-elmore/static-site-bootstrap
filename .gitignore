@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+
+# Terraform
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/terraform.tfvars
+
+# Deploy overrides (may contain account-specific IDs)
+deploy.env

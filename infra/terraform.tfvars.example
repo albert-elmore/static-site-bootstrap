@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars and set values for your site:
+#   cp terraform.tfvars.example terraform.tfvars
+
+domain_name      = "example.com"
+site_bucket_name = "example-com-site" # must be globally unique across all AWS accounts
+region           = "us-east-1"
